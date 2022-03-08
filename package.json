@@ -1,23 +1,37 @@
 {
-  "name": "w_ip",
-  "version": "1.0.0",
-  "description": "Lightweight Node.JS application for querying IP info",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wlchs/w_ip.git"
-  },
-  "keywords": [
-    "ip;",
-    "node.js;",
-    "docker"
-  ],
-  "author": "wlchs",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wlchs/w_ip/issues"
-  }
+    "name": "w_ip",
+    "version": "1.0.0",
+    "description": "Lightweight Node.JS application for querying IP info",
+    "main": "index.js",
+    "scripts": {
+        "start": "babel-node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wlchs/w_ip.git"
+    },
+    "keywords": [
+        "ip",
+        "node.js",
+        "docker"
+    ],
+    "author": "wlchs",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wlchs/w_ip/issues"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.17.6",
+        "@babel/core": "^7.17.5",
+        "@babel/node": "^7.16.8",
+        "@babel/preset-env": "^7.16.11",
+        "@types/npmlog": "^4.1.4",
+        "eslint": "^8.10.0",
+        "eslint-config-airbnb": "^19.0.4"
+    },
+    "dependencies": {
+        "axios": "^0.26.0",
+        "express": "^4.17.3",
+        "npmlog": "^6.0.1"
+    }
 }
