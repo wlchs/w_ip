@@ -1,0 +1,23 @@
+{
+  "name": "w_ip",
+  "version": "1.0.0",
+  "description": "Lightweight Node.JS application for querying IP info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wlchs/w_ip.git"
+  },
+  "keywords": [
+    "ip;",
+    "node.js;",
+    "docker"
+  ],
+  "author": "wlchs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wlchs/w_ip/issues"
+  }
+}
